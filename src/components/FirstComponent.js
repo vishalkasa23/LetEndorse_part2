@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./MyForm.css";
 const FirstComponent = () => {
-  const [data, setData] = useState("");
+  // const [data, setData] = useState("");
   const navigate = useNavigate();
   const [offerData, setOfferData] = useState({
     offerCode: "",
@@ -92,10 +92,10 @@ const FirstComponent = () => {
     });
     navigate("/second", { state: { offerData } });
   };  
-  const handleClick = () => {
-    setData("Data from First Component");
-    navigate("/second", { state: { data } });
-  };
+  // const handleClick = () => {
+  //   setData("Data from First Component");
+  //   navigate("/second", { state: { data } });
+  // };
 
   return (
     <div>
