@@ -288,13 +288,6 @@ const FirstComponent = () => {
         Create Offer
       </button>
     </form>
-      <h2>First Component</h2>
-      <input
-        type="text"
-        value={data}
-        onChange={(e) => setData(e.target.value)}
-      />
-      <button onClick={handleClick}>Switch to Second Component</button>
     </div>
   );
 };

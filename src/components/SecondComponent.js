@@ -49,7 +49,7 @@ const SecondComponent = () => {
         style={{
         position: 'absolute',
         marginLeft: '58%',
-        marginTop: 110,
+        marginTop: 160,
         }}
         >
 
@@ -64,7 +64,7 @@ const SecondComponent = () => {
         style={{
         position: 'absolute',
         marginLeft: '58%',
-        marginTop: 250,
+        marginTop: 280,
         }}
         >
             <text style={{
@@ -79,7 +79,7 @@ const SecondComponent = () => {
         style={{
         position: 'absolute',
         marginLeft: '58%',
-        marginTop: 350,
+        marginTop: 380,
         }}
         >
             <text style={{
@@ -94,7 +94,7 @@ const SecondComponent = () => {
         style={{
         position: 'absolute',
         marginLeft: '58%',
-        marginTop: 450,
+        marginTop: 480,
         }}
         >
             <text style={{
